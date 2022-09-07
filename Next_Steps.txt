@@ -1,0 +1,60 @@
+Entering Info:
+    Form fields:
+        SEE README
+            some are checkboxes etc
+        ~~~~~~
+        Have cute icons to go along with the categories!
+        ~~~~~~
+    
+Sorting by interaction
+    Need a way to store the data entered
+        RESEARCH ---- THIS IS BACK-END we need a database for this to pull Form
+            Maybe we can use a local spreadsheet for now?
+            Can we use this on multiple devices?
+    See README for options on How to Sort
+    Click appropriate buttons/ drop-downs etc
+    List pops up!
+        Links available to visit web pages
+        ~~~~~~~~~  
+        Expand and contract details on the event
+        Add event to calendar - send invite etc integrated  
+        Thumbnail pics? - icons to help visually sort
+        ~~~~~~~~~
+
+Sorting by dates
+    See Above for data storage etc
+    Displays in calendar
+
+Sorting by location
+    See above for data storage etc
+    View on map - map zoomed in/out depending on your parameters
+
+Edit Data  
+    A button on every listing to be able to edit that particular instance
+    Pop-up? overlay with the form for that item desplayed 
+    Save Changes / Leave without Saving buttons (make this easy for people)
+    
+
+
+
+
+~~~~~~~~~~~~~~~~~~
+Sliding (L/R) view of different 'pages'
+Each page is a different interaction with the info
+    Entering info
+    Sorting by location
+    Sorting by dates
+    Sorting by interaction  
+        choose:
+            location, time of day, date, etc all available
+    Edit Data
+
+
+Steps:
+    Build ~one~ of these pages
+    Build a second
+    etc
+    
+    Then figure out how to do the fancy part
+
+
