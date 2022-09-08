@@ -26,6 +26,20 @@ nav {
     font-size: 1.5em;
 }
 
+main {
+    position: relative;
+    top: 10em;
+}
+#space {
+    height: 10em;
+    content: " ";
+}
+
+form  { display: table;      }
+p     { display: table-row;  }
+label { display: table-cell; }
+input { display: table-cell; }
+
 @media screen and (max-width: 400px) {
     .nav-link {
         padding: 1em 2em;
