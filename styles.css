@@ -20,10 +20,37 @@ nav {
 }
 
 .nav-link {
-    padding: 1em 2em;
-    background-color: rgb(198, 238, 238);
-    border-radius: 10%;
-    font-size: 1.5em;
+    font-size: 1.2em;
+    width: 20%;
+    height: auto;
+    margin: .2em;
+}
+
+
+nav a::before {
+    transform: scalex(0);
+    transform-origin: bottom right;
+}
+nav a:hover {
+    background:  hsl(174, 92%, 69%);
+    transition: .2s all ease;
+    transition: transform .3s ease;
+} 
+
+nav a {
+    align-self: center;
+    padding: .5em .5em;
+    background-color: hsl(174, 79%, 80%);
+    border-radius: 10px;
+}
+
+
+
+
+nav p {
+    text-decoration: none;
+    color: black;
+    font-size: .75em;
 }
 
 main {
@@ -31,8 +58,7 @@ main {
     top: 10em;
 }
 #space {
-    height: 10em;
-    content: " ";
+    margin-top: 10em;
 }
 
 form  { display: table;      }

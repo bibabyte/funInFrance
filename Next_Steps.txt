@@ -1,7 +1,15 @@
+Display:
+    menu buttons - same height
+    grid layout
+    
+
+
 Entering Info:
     Form fields:
         SEE README
             some are checkboxes etc
+
+    Need to sort out the works for this before we can display anything.
         ~~~~~~
         Have cute icons to go along with the categories!
         ~~~~~~
