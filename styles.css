@@ -61,10 +61,37 @@ main {
     margin-top: 10em;
 }
 
-form  { display: table;      }
-p     { display: table-row;  }
-label { display: table-cell; }
-input { display: table-cell; }
+
+/* form display */
+
+.gridForm {
+    display: grid;
+    grid-template-columns: repeat(4(25%));
+}
+
+.text {
+    grid-column: 2 / span 3;
+}
+
+.title {
+    grid-column: 1 / span 1;
+}
+
+.box {
+    grid-column: 2/ span 1;
+}
+
+.boxLabel {
+    grid-column: 3 / span 2;
+}
+
+/* grid layout */
+
+/* .grid {
+    grid-template-rows: repeat();
+} */
+
+/* media */
 
 @media screen and (max-width: 400px) {
     .nav-link {
